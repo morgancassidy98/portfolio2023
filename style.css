@@ -22,3 +22,9 @@
      font-size:20px;
      text-align: center;
 }
+label {
+    margin-bottom:0;
+}
+.input-group {
+    margin-bottom:1rem;
+}
