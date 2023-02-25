@@ -15,6 +15,10 @@
     background-color: #000080;
     border-color: #000080;
 }
+.btn-circle {
+    border-radius:100%;
+  
+}
 #about {
      background-color: #000080;
      color:white;
@@ -24,6 +28,7 @@
 }
 label {
     margin-bottom:0;
+    font-weight:bold;
 }
 .input-group {
     margin-bottom:1rem;
