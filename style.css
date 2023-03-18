@@ -33,3 +33,12 @@ label {
 .input-group {
     margin-bottom:1rem;
 }
+.carousel-control-next,
+.carousel-control-prev, .carousel-indicators {
+    filter: invert(100%);
+}
+
+.carousel-indicators {
+    
+    bottom:-50px;
+}
