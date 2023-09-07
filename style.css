@@ -50,3 +50,11 @@ label {
 .carousel-caption {
     background-color:rgba(0,0, 128, .75);
 }
+
+.projectLink a {
+    color:white;
+    text-decoration:underline;
+}
+.projectLink a:hover{
+    opacity:.9;
+}
