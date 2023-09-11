@@ -48,11 +48,16 @@ label {
 }
 
 .carousel-caption {
-    background-color:rgba(0,0, 128, .75);
+    /*background-color:rgba(0,0, 128, .75);*/
+    position:unset;
+    width:80%;
+    margin:auto;
+    color:#000;
 }
 
 .projectLink a {
-    color:white;
+    /*color:white;*/
+    color: #000080;
     text-decoration:underline;
 }
 .projectLink a:hover{
