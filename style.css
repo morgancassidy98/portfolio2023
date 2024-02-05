@@ -4,11 +4,21 @@
     background-image: none;
     border-color: #000080;
 }
+.btn-primary {
+    background-color:#000080;
+    border-color: #000080;
+}
 
 .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
     background-color: #000080;
     border-color: #000080;
+}
+
+.btn-primary:hover {
+    background-color:#000080;
+    border-color: #000080;
+    opacity:.8;
 }
 .btn-outline-primary:hover {
     color: #fff;
@@ -54,6 +64,17 @@ label {
     margin:auto;
     color:#000;
 }
+.project-section {
+    margin-bottom:2rem;
+
+    
+}
+
+.project-section p {
+   
+
+}
+
 
 .projectLink a {
     /*color:white;*/
@@ -62,4 +83,7 @@ label {
 }
 .projectLink a:hover{
     opacity:.9;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,28, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
